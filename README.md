@@ -1,7 +1,7 @@
 # dbj_json
-DBJ JSON Research and Development
+## DBJ JSON Research and Development
 
-## Amalgamation of [GASON](https://github.com/vivkin/gason) and [JSMN](https://github.com/zserge/jsmn)
+Basically an amalgamation of [GASON](https://github.com/vivkin/gason) and [JSMN](https://github.com/zserge/jsmn)
 
 GASON is transformed into C11 code, and almost rewritten in that process. Also [fast_double_parser](https://github.com/lemire/fast_double_parser) is transformed into C11 code ans used in there.
 
