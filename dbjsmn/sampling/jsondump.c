@@ -166,7 +166,7 @@ FILE *fetch_json_stream(const char *const json_fname_) {
   return stream_in;
 }
 /////////////////////////////////////////////////////////////////////////////////////
-int jsondump(int argc, const char **argv) {
+int jsondump(int argc, char **argv) {
   FILE *stream_out = stdout;
   _cleanup_filep_ FILE *stream_in = fetch_json_stream(argc > 1 ? argv[1] : 0);
   ////////////////////////////////
